@@ -262,7 +262,7 @@ Resources:
         - t3.medium
       RemoteAccess:
         Ec2SshKey: bhargav1
-      AmiType: AL2023_x86_64
+      AmiType: AL2_x86_64
 
   CartDynamoDBTable:
     Type: AWS::DynamoDB::Table
