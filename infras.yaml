@@ -231,6 +231,7 @@ Resources:
     Properties:
       Name: !Ref EKSClusterName
       RoleArn: !GetAtt EKSClusterRole.Arn
+      Version: "1.32"
       ResourcesVpcConfig:
         SubnetIds:
           - !Ref PrivateSubnet1
